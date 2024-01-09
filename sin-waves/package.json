@@ -1,0 +1,27 @@
+{
+  "name": "canvas-resize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve .",
+    "ts": "tsc --watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/dat.gui": "^0.7.12",
+    "dat.gui": "^0.7.9",
+    "serve": "^14.2.1",
+    "ts-loader": "^9.5.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
